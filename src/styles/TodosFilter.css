@@ -1,0 +1,30 @@
+.todo-filter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.todo-filter .mid{
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-filter button{
+  background: transparent;
+  color: gray;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.1s;
+}
+
+.todo-filter button.active{
+  color: white;
+}
+
+.todo-filter button:hover{
+  color: white;
+}

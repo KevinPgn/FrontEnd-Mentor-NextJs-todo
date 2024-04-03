@@ -1,0 +1,46 @@
+.todoList{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.608);
+}
+
+.todoList .todo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+  border-bottom: 1px solid #7e7e7e;
+  background: #181824;
+}
+
+.todoList .todo .left{
+  display: flex;
+  align-content: center;
+  gap: 15px;
+}
+
+.todoList .todo:last-child{
+  border-bottom: none;
+}
+
+.todoList .todo input[type="checkbox"]{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.todoList .todo span{
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.todoList .todo .right button{
+  font-size: 20px;
+  color: #a8a8a8;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.todoList .todo input[type="checkbox"]:checked + span{
+  color: #a8a8a8;
+  text-decoration: line-through;
+}

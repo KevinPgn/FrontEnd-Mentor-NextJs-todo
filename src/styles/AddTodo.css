@@ -1,0 +1,35 @@
+.container-global .addTodo{
+  margin: 2rem 0;
+  display: flex;
+}
+
+.container-global .addTodo .add{
+  width: 100%;
+  background: #181824;
+  color: rgb(199, 199, 199);
+  border: none;
+  padding: 1.2rem 0;
+  font-size: 19px;
+  outline: none;
+}
+
+.container-global .addTodo .checkbox{
+  background: #181824;
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 19px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-global .addTodo .checkbox input[type="checkbox"]{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.container-global .addTodo button{
+  display: none;
+}

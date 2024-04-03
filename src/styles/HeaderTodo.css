@@ -1,0 +1,22 @@
+.container-global{
+  position: relative;
+  z-index: 111111;
+  width: 600px;
+  margin: 7rem auto 5rem auto;
+}
+
+.container-global .header-todo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-global .header-todo h1{
+  font-size: 2.5rem;
+  letter-spacing: 15px;
+}
+
+.container-global .header-todo svg{
+  font-size: 25px;
+  cursor: pointer;
+}
