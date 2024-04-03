@@ -13,7 +13,7 @@ export const TodoList = async () => {
     {todos.map((todo) => (
       <Todo key={todo.id} todo={todo} />
     ))}
-    <TodosFilter todo={todos} />
+    <TodosFilter todo={todos}/>
   </div>
   </>
 }
