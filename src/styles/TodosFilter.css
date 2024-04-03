@@ -36,3 +36,10 @@ body.light .todo-filter button.active{
 .todo-filter button:hover{
   color: white;
 }
+
+@media screen and (max-width: 600px){
+  .todo-filter{
+    flex-direction: column;
+    gap: 20px;
+  }
+}
