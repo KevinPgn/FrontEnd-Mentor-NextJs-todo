@@ -60,7 +60,11 @@ export async function updateTodo(id: string) {
 }
 
 export async function clearCompleted() {
-  await prisma.todo.deleteMany();
+  await prisma.todo.deleteMany({
+    where: {
+      done: true
+    },
+  })
 
   revalidatePath("/");
 }
