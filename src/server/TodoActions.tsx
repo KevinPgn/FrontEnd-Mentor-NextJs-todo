@@ -68,3 +68,16 @@ export async function clearCompleted() {
 
   revalidatePath("/");
 }
+
+export async function editTodo(id: string, title: string) {
+  await prisma.todo.update({
+    where: {
+      id
+    },
+    data: {
+      title
+    },
+  });
+
+  revalidatePath("/");
+}
