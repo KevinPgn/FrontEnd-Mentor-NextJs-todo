@@ -59,6 +59,10 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.608);
 }
 
+body.light .confirmation-delete{
+  background: #fff;
+}
+
 .confirmation-delete .confirmation-delete-content span{
   font-size: 16px;
   line-height: 1.5;

@@ -25,6 +25,14 @@
   color: white;
 }
 
+body.light .todo-filter button{
+  color: #181824;
+}
+
+body.light .todo-filter button.active{
+  color: rgb(0, 0, 212);
+}
+
 .todo-filter button:hover{
   color: white;
 }

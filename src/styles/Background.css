@@ -1,5 +1,17 @@
-.background.dark{
+body.dark .background{
   background-image: url('/bg-desktop-dark.jpg');
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body.light .background{
+  background-image: url('/bg-desktop-light.jpg');
   height: 350px;
   width: 100%;
   background-size: cover;

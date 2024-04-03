@@ -13,6 +13,11 @@
   outline: none;
 }
 
+body.light .container-global .addTodo .add{
+  background: white;
+  color: #181824;
+}
+
 .container-global .addTodo .checkbox{
   background: #181824;
   border: none;
@@ -22,6 +27,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+body.light .container-global .addTodo .checkbox{
+  background: white;
 }
 
 .container-global .addTodo .checkbox input[type="checkbox"]{

@@ -4,10 +4,28 @@
   box-sizing: border-box;
 }
 
-body{
+body.dark{
   font-family: sans-serif;
   background-color: #181824;
   color: rgb(228, 228, 228);
+}
+
+body.light{
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  color: #181824;
+}
+
+body.light .todoList{
+  background-color: white;
+}
+
+body.light .todoList .todo{
+  background-color: white;
+}
+
+body.light .todoList .todo span{
+  color: #181824;
 }
 
 a{
